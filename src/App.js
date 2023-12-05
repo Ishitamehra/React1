@@ -6,6 +6,8 @@ import DisableButton from "./components/DisableButton";
 import TwoWayBinding from "./components/TwoWayBinding";
 import DynamicComponents from "./components/DynamicComponents";
 import SumOfNumbers from "./components/SumOfNumbers";
+import Counter from "./components/Counter";
+import SearchFilter from "./components/SearchFilter";
 
 const App = () => {
   return (
@@ -23,6 +25,10 @@ const App = () => {
       <DynamicComponents />
       <hr />
       <SumOfNumbers />
+      <hr />
+      <Counter />
+      <hr />
+      <SearchFilter />
     </div>
   );
 };
