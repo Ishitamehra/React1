@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React App with Background Image</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      background-image: url('pic1.jpg'); /* Replace 'your_background_image.jpg' with your image file path */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #root {
+      text-align: center;
+    }
+    .container {
+      background: rgba(0, 0, 0, 0.5); /* Background color for the container */
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div class="container">
+      <!-- Your React app will be rendered here -->
+    </div>
+  </div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Include your React app bundle here -->
+  <script src="index.js"></script> <!-- Replace 'path_to_your_react_bundle.js' with your React build bundle path -->
+</body>
+</html>
