@@ -4,7 +4,7 @@ import RecordList from "./components/RecordList";
 import ShowHideElement from "./components/ShowHideElement";
 import DisableButton from "./components/DisableButton";
 import TwoWayBinding from "./components/TwoWayBinding";
-import DynamicComponents from "./components/DynamicComponents";
+import DynamicComponents from "./components/ParentComponent";
 import SumOfNumbers from "./components/SumOfNumbers";
 import Counter from "./components/Counter";
 import SearchFilter from "./components/SearchFilter";
